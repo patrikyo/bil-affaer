@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:700');
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #F5F5F5;
+}
+header{
+	background-color: black;
+	width: 100%;
+	height: 90px;
+	position: relative;
+}
+.mobil-nav-toogle{
+	display: none;
+}
+ #logotypContainer{
+ 	display: inline-block;
+ 	width: 30%;
+ }
+#logo{
+	color: white;
+ 	font-family: 'Orbitron' , sans-serif;
+ 	font-size: 30px;
+ 	text-decoration: underline red; 
+ 	padding-left: 15px;
+ }
+#nav{
+	display: inline-block;
+	width: 69%;
+}
+#nav ul{
+	list-style-type: none;
+}
+#nav ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#nav ul li{
+	padding: 10px;
+	float: right;
+	margin: 0 10px;
+}
+#nav ul li a{
+	color: white;	
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Orbitron' , sans-serif;
+}
+#nav ul li a:hover{
+	color: #9E9E9E;
+}
+.wrapper{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+}
+/*Startsida*/
+.bildContainer{
+	width:100%;
+}
+.bildContainer img{
+	width: 30%;
+	height: auto;
+}
+.bildContainer-galeri img{
+	width: 90%;
+	height: auto;
+	border-radius: 1%;
+	box-shadow: 15px 10px 30px 9px rgba(97, 97, 97, 0.5);
+	margin-bottom: 10px;
+}
+.bildContainer-galeri img:nth-child(n+2){
+	display:none;
+}
+.start-sida-info{
+	font-family: 'Montserrat', sans-serif;
+	color:  #808080;
+	font-size: 14px;
+	padding: 15px;
+}
+/*Startsida slutar*/
+
+/*galleri börjar*/
+
+.bild-galleri-container{
+	margin-top: 40px;
+}
+.galleriBilar{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.galleriBilar img{
+	width: 80%;
+	height: auto;
+	margin: 10px 0;
+}
+.objekt-titel{
+	font-size: 25px;
+}
+.objekt-beskrivning{
+	font-family: 'Montserrat', sans-serif;
+	color: #808080;
+	font-size: 14px;
+	padding: 0px 10px 10px 10px;
+}
+/*galleri slutar*/
+footer{
+	border-top: 4px solid grey;
+	position: relative;
+}
+footer ul{
+	list-style-type: none;
+	font-family: 'Fjalla One' , sans-serif;
+	color: #9E9E9E;
+}
+.oppetider{
+	display: inline-block;
+	width: 50%;
+}	
+.kontakt-uppgifter {
+	display: inline-block;
+	width: 49%;
+}
+footer div ul li:first-child{
+	font-size: 30px;
+	color: #757575;
+	margin:8px 0;
+}
+
+@media (max-width: 910px){
+.kontakt-uppgifter {
+	width: 50%;
+	margin-top: 8px;
+}
+}
+@media(max-width: 768px){
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+}
+.mobil-nav-toogle{
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	right: 0;
+}
+.mobil-nav-toogle{
+	font-size: 35px;
+	color: grey;
+}
+#logotypContainer{
+	position:relative;
+	top: 0;
+	left: 0;
+}
+#nav{
+	display: none;
+	position: absolute;
+	bottom: 0;
+	right: 0px;
+	width: 100%;
+}
+#nav ul li{
+	margin: 0px 2px;
+	padding: 1px;
+	font-family: 'Orbitron' , sans-serif;
+}
+#nav ul li a{
+	font-size: 17px ;
+}
+}
+
+@media (max-width: 480px){
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+}
+.mobil-nav-toogle{
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	right: 0;
+}
+.mobil-nav-toogle{
+	font-size: 35px;
+	color: grey;
+}
+#logotypContainer{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#nav{
+	display: none;
+	position: absolute;
+	bottom: 0;
+	right: 0px;
+	width: 100%;
+}
+#nav ul li{
+	margin: 0px 2px;
+	padding: 1px;
+	font-family: 'Orbitron' , sans-serif;
+}
+#nav ul li a{
+	font-size: 17px ;
+}
+}
