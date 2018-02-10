@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
-@import url('https://fonts.googleapis.com/css?family=Orbitron:700');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Fjalla+One|Orbitron:700');
 *{
 	box-sizing: border-box;
 	padding: 0;
@@ -116,6 +113,7 @@ header{
 footer{
 	border-top: 4px solid grey;
 	position: relative;
+	padding: 2%;
 }
 footer ul{
 	list-style-type: none;
